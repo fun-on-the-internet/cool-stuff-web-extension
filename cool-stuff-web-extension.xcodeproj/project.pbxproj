@@ -20,10 +20,6 @@
 		B513E14B295CDDC2001E82A9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B513E14A295CDDC2001E82A9 /* images */; };
 		B513E14D295CDDC2001E82A9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B513E14C295CDDC2001E82A9 /* manifest.json */; };
 		B513E14F295CDDC2001E82A9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B513E14E295CDDC2001E82A9 /* background.js */; };
-		B513E151295CDDC2001E82A9 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = B513E150295CDDC2001E82A9 /* content.js */; };
-		B513E153295CDDC2001E82A9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B513E152295CDDC2001E82A9 /* popup.html */; };
-		B513E155295CDDC2001E82A9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B513E154295CDDC2001E82A9 /* popup.css */; };
-		B513E157295CDDC2001E82A9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B513E156295CDDC2001E82A9 /* popup.js */; };
 		B55E483B29A2F02100231BEC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55E483A29A2F02100231BEC /* Icon.png */; };
 /* End PBXBuildFile section */
 
@@ -68,10 +64,6 @@
 		B513E14A295CDDC2001E82A9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		B513E14C295CDDC2001E82A9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		B513E14E295CDDC2001E82A9 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		B513E150295CDDC2001E82A9 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		B513E152295CDDC2001E82A9 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		B513E154295CDDC2001E82A9 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		B513E156295CDDC2001E82A9 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		B513E158295CDDC2001E82A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B513E159295CDDC2001E82A9 /* cool_stuff_web_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cool_stuff_web_extension_Extension.entitlements; sourceTree = "<group>"; };
 		B55E483929A2EEB100231BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -158,10 +150,6 @@
 				B513E14A295CDDC2001E82A9 /* images */,
 				B513E14C295CDDC2001E82A9 /* manifest.json */,
 				B513E14E295CDDC2001E82A9 /* background.js */,
-				B513E150295CDDC2001E82A9 /* content.js */,
-				B513E152295CDDC2001E82A9 /* popup.html */,
-				B513E154295CDDC2001E82A9 /* popup.css */,
-				B513E156295CDDC2001E82A9 /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -261,13 +249,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B513E14F295CDDC2001E82A9 /* background.js in Resources */,
-				B513E155295CDDC2001E82A9 /* popup.css in Resources */,
-				B513E153295CDDC2001E82A9 /* popup.html in Resources */,
 				B513E14B295CDDC2001E82A9 /* images in Resources */,
 				B513E14D295CDDC2001E82A9 /* manifest.json in Resources */,
 				B513E149295CDDC2001E82A9 /* _locales in Resources */,
-				B513E151295CDDC2001E82A9 /* content.js in Resources */,
-				B513E157295CDDC2001E82A9 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

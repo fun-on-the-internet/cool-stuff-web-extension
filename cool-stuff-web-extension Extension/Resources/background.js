@@ -20,6 +20,7 @@ const activeIcons = {
 };
 
 browserApi.browserAction.onClicked.addListener(addLink);
+browserApi.tabs.onActivated.addListener(onActiveTabChanged);
 browserApi.runtime.onStartup.addListener(onStartup);
 
 async function _getHeaders() {
@@ -48,6 +49,11 @@ function onStartup() {
   // Request the host permissions as on Safari, they're not granted by default. We
   // need this to access the user's token via the cookie set on https://coolstuff.app.
   browserApi.permissions.request({ permissions: ["*://coolstuff.app/*"] });
+}
+
+async function onActiveTabChanged() {
+  // Reset the icon
+  _updateIcon(false);
 }
 
 async function addLink() {
