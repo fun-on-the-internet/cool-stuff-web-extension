@@ -1,5 +1,5 @@
 # Cool Stuff Web Extension
-This repo contains the code used for Cool Stuff's web extension for all supported browsers: Safari, Chrome, and Firefox.
+This repo contains the code used for [Cool Stuff's](https://coolstuff.app) web extension for all supported browsers: Safari, Chrome, and Firefox.
 
 The root directory contains the code required by XCode to build the extension for Safari. However, the extension's functionality is entirely provided by the standard Web Extension files in [Resources](https://github.com/fun-on-the-internet/cool-stuff-web-extension/tree/main/cool-stuff-web-extension%20Extension) and is shared among all platforms.
 
