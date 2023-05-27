@@ -1,7 +1,7 @@
 # Cool Stuff Web Extension
 This repo contains the code used for [Cool Stuff's](https://coolstuff.app) web extension for all supported browsers: Safari, Chrome, and Firefox.
 
-The root directory contains the code required by XCode to build the extension for Safari. However, the extension's functionality is entirely provided by the standard Web Extension files in [Resources](https://github.com/fun-on-the-internet/cool-stuff-web-extension/tree/main/cool-stuff-web-extension%20Extension) and is shared among all platforms.
+The root directory contains the code required by XCode to build the extension for Safari. However, the extension's functionality is entirely provided by the standard Web Extension files in [Resources](https://github.com/fun-on-the-internet/cool-stuff-web-extension/tree/main/cool-stuff-web-extension%20Extension/Resources) and is shared among all platforms.
 
 The functionality is as follows:
 1. When the extenion is launched, it requests permission to access data on the domain `coolstuff.app`. This allows the extension to access the authentication token for the currently authenticated user on Cool Stuff.
