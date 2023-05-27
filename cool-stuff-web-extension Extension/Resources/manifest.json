@@ -30,5 +30,5 @@
     }
   },
 
-  "permissions": ["activeTab", "cookies", "storage", "*://coolstuff.app/*"]
+  "permissions": ["activeTab", "cookies", "*://coolstuff.app/*"]
 }
