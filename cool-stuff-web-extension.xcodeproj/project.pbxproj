@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B513E128295CDDC1001E82A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513E127295CDDC1001E82A9 /* AppDelegate.swift */; };
 		B513E12C295CDDC1001E82A9 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = B513E12A295CDDC1001E82A9 /* Main.html */; };
-		B513E12E295CDDC1001E82A9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B513E12D295CDDC1001E82A9 /* Icon.png */; };
 		B513E130295CDDC1001E82A9 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = B513E12F295CDDC1001E82A9 /* Style.css */; };
 		B513E132295CDDC1001E82A9 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = B513E131295CDDC1001E82A9 /* Script.js */; };
 		B513E134295CDDC1001E82A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B513E133295CDDC1001E82A9 /* ViewController.swift */; };
@@ -25,6 +24,7 @@
 		B513E153295CDDC2001E82A9 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = B513E152295CDDC2001E82A9 /* popup.html */; };
 		B513E155295CDDC2001E82A9 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = B513E154295CDDC2001E82A9 /* popup.css */; };
 		B513E157295CDDC2001E82A9 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = B513E156295CDDC2001E82A9 /* popup.js */; };
+		B55E483B29A2F02100231BEC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55E483A29A2F02100231BEC /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		B513E124295CDDC1001E82A9 /* cool-stuff-web-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cool-stuff-web-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B513E127295CDDC1001E82A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B513E12B295CDDC1001E82A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		B513E12D295CDDC1001E82A9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B513E12F295CDDC1001E82A9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		B513E131295CDDC1001E82A9 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		B513E133295CDDC1001E82A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +74,8 @@
 		B513E156295CDDC2001E82A9 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		B513E158295CDDC2001E82A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B513E159295CDDC2001E82A9 /* cool_stuff_web_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cool_stuff_web_extension_Extension.entitlements; sourceTree = "<group>"; };
+		B55E483929A2EEB100231BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B55E483A29A2F02100231BEC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../Downloads/Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		B513E126295CDDC1001E82A9 /* cool-stuff-web-extension */ = {
 			isa = PBXGroup;
 			children = (
+				B55E483929A2EEB100231BEC /* Info.plist */,
 				B513E127295CDDC1001E82A9 /* AppDelegate.swift */,
 				B513E133295CDDC1001E82A9 /* ViewController.swift */,
 				B513E135295CDDC1001E82A9 /* Main.storyboard */,
@@ -131,7 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				B513E12A295CDDC1001E82A9 /* Main.html */,
-				B513E12D295CDDC1001E82A9 /* Icon.png */,
+				B55E483A29A2F02100231BEC /* Icon.png */,
 				B513E12F295CDDC1001E82A9 /* Style.css */,
 				B513E131295CDDC1001E82A9 /* Script.js */,
 			);
@@ -245,11 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B513E12E295CDDC1001E82A9 /* Icon.png in Resources */,
 				B513E137295CDDC1001E82A9 /* Main.storyboard in Resources */,
 				B513E132295CDDC1001E82A9 /* Script.js in Resources */,
 				B513E12C295CDDC1001E82A9 /* Main.html in Resources */,
 				B513E139295CDDC2001E82A9 /* Assets.xcassets in Resources */,
+				B55E483B29A2F02100231BEC /* Icon.png in Resources */,
 				B513E130295CDDC1001E82A9 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,11 +505,13 @@
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension/cool-stuff-web-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F8N7968H6M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "cool-stuff-web-extension";
+				INFOPLIST_FILE = "cool-stuff-web-extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Stuff for Safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -525,8 +529,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.app.cool-stuff-web-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -539,11 +547,13 @@
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension/cool-stuff-web-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = F8N7968H6M;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "cool-stuff-web-extension";
+				INFOPLIST_FILE = "cool-stuff-web-extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Stuff for Safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -561,8 +571,12 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.app.cool-stuff-web-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

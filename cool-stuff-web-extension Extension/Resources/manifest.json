@@ -1,39 +1,34 @@
 {
-    "manifest_version": 3,
-    "default_locale": "en",
+  "manifest_version": 2,
+  "default_locale": "en",
 
-    "name": "__MSG_extension_name__",
-    "description": "__MSG_extension_description__",
-    "version": "1.0",
+  "name": "Cool Stuff",
+  "description": "The Cool Stuff extension allows you to add links to Cool Stuff directly from your browser. Pretty cool.",
+  "version": "1.0",
 
-    "icons": {
-        "48": "images/icon-48.png",
-        "96": "images/icon-96.png",
-        "128": "images/icon-128.png",
-        "256": "images/icon-256.png",
-        "512": "images/icon-512.png"
-    },
+  "icons": {
+    "48": "images/cool-stuff-icon-48.png",
+    "96": "images/cool-stuff-icon-96.png",
+    "128": "images/cool-stuff-icon-128.png",
+    "256": "images/cool-stuff-icon-256.png",
+    "512": "images/cool-stuff-icon-512.png"
+  },
 
-    "background": {
-        "service_worker": "background.js"
-    },
+  "background": {
+    "scripts": ["browser-polyfill.min.js", "background.js"],
+    "persistent": true
+  },
 
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
+  "browser_action": {
+    "default_icon": {
+      "16": "images/cool-stuff-toolbar-icon-inactive-16.png",
+      "19": "images/cool-stuff-toolbar-icon-inactive-19.png",
+      "32": "images/cool-stuff-toolbar-icon-inactive-32.png",
+      "38": "images/cool-stuff-toolbar-icon-inactive-38.png",
+      "48": "images/cool-stuff-toolbar-icon-inactive-48.png",
+      "72": "images/cool-stuff-toolbar-icon-inactive-72.png"
+    }
+  },
 
-    "action": {
-        "default_popup": "popup.html",
-        "default_icon": {
-            "16": "images/toolbar-icon-16.png",
-            "19": "images/toolbar-icon-19.png",
-            "32": "images/toolbar-icon-32.png",
-            "38": "images/toolbar-icon-38.png",
-            "48": "images/toolbar-icon-48.png",
-            "72": "images/toolbar-icon-72.png"
-        }
-    },
-
-    "permissions": [ ]
+  "permissions": ["tabs", "cookies", "storage", "*://coolstuff.app/*"]
 }
