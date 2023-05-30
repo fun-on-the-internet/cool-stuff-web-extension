@@ -19,8 +19,9 @@
 		B513E149295CDDC2001E82A9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B513E148295CDDC2001E82A9 /* _locales */; };
 		B513E14B295CDDC2001E82A9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B513E14A295CDDC2001E82A9 /* images */; };
 		B513E14D295CDDC2001E82A9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B513E14C295CDDC2001E82A9 /* manifest.json */; };
-		B513E14F295CDDC2001E82A9 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = B513E14E295CDDC2001E82A9 /* background.js */; };
 		B55E483B29A2F02100231BEC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55E483A29A2F02100231BEC /* Icon.png */; };
+		B5F85D242A268378000A1BCB /* service_worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B5F85D222A268378000A1BCB /* service_worker.js */; };
+		B5F85D252A268378000A1BCB /* webextension-polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = B5F85D232A268378000A1BCB /* webextension-polyfill.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,11 +64,12 @@
 		B513E148295CDDC2001E82A9 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		B513E14A295CDDC2001E82A9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		B513E14C295CDDC2001E82A9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		B513E14E295CDDC2001E82A9 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		B513E158295CDDC2001E82A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B513E159295CDDC2001E82A9 /* cool_stuff_web_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cool_stuff_web_extension_Extension.entitlements; sourceTree = "<group>"; };
 		B55E483929A2EEB100231BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B55E483A29A2F02100231BEC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../Downloads/Icon.png; sourceTree = "<group>"; };
+		B5F85D222A268378000A1BCB /* service_worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = service_worker.js; sourceTree = "<group>"; };
+		B5F85D232A268378000A1BCB /* webextension-polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "webextension-polyfill.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,10 +148,11 @@
 		B513E147295CDDC2001E82A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B5F85D222A268378000A1BCB /* service_worker.js */,
+				B5F85D232A268378000A1BCB /* webextension-polyfill.js */,
 				B513E148295CDDC2001E82A9 /* _locales */,
 				B513E14A295CDDC2001E82A9 /* images */,
 				B513E14C295CDDC2001E82A9 /* manifest.json */,
-				B513E14E295CDDC2001E82A9 /* background.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -248,9 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B513E14F295CDDC2001E82A9 /* background.js in Resources */,
 				B513E14B295CDDC2001E82A9 /* images in Resources */,
 				B513E14D295CDDC2001E82A9 /* manifest.json in Resources */,
+				B5F85D252A268378000A1BCB /* webextension-polyfill.js in Resources */,
+				B5F85D242A268378000A1BCB /* service_worker.js in Resources */,
 				B513E149295CDDC2001E82A9 /* _locales in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

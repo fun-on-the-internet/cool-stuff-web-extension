@@ -1,11 +1,9 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "default_locale": "en",
-
   "name": "Cool Stuff",
   "description": "The Cool Stuff extension allows you to add links to Cool Stuff directly from your browser. Pretty cool.",
-  "version": "1.0",
-
+  "version": "0.0.1",
   "icons": {
     "48": "images/cool-stuff-icon-48.png",
     "96": "images/cool-stuff-icon-96.png",
@@ -13,13 +11,11 @@
     "256": "images/cool-stuff-icon-256.png",
     "512": "images/cool-stuff-icon-512.png"
   },
-
   "background": {
-    "scripts": ["browser-polyfill.min.js", "background.js"],
-    "persistent": true
+    "service_worker": "service_worker.js"
   },
-
-  "browser_action": {
+  "permissions": ["activeTab", "cookies"],
+  "action": {
     "default_icon": {
       "16": "images/cool-stuff-toolbar-icon-inactive-16.png",
       "19": "images/cool-stuff-toolbar-icon-inactive-19.png",
@@ -29,6 +25,6 @@
       "72": "images/cool-stuff-toolbar-icon-inactive-72.png"
     }
   },
-
-  "permissions": ["activeTab", "cookies", "*://coolstuff.app/*"]
+  "content_security_policy": {},
+  "host_permissions": ["*://coolstuff.app/*"]
 }

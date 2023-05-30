@@ -19,7 +19,7 @@ const activeIcons = {
   72: "images/cool-stuff-toolbar-icon-active-72.png",
 };
 
-browserApi.browserAction.onClicked.addListener(addLink);
+browserApi.action.onClicked.addListener(addLink);
 browserApi.tabs.onActivated.addListener(onActiveTabChanged);
 browserApi.runtime.onStartup.addListener(onStartup);
 
@@ -40,7 +40,7 @@ async function _getHeaders() {
 }
 
 function _updateIcon(isActive) {
-  browserApi.browserAction.setIcon({
+  browserApi.action.setIcon({
     path: isActive ? activeIcons : inactiveIcons,
   });
 }
