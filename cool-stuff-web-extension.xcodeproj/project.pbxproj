@@ -21,7 +21,6 @@
 		B513E14D295CDDC2001E82A9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B513E14C295CDDC2001E82A9 /* manifest.json */; };
 		B55E483B29A2F02100231BEC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55E483A29A2F02100231BEC /* Icon.png */; };
 		B5F85D242A268378000A1BCB /* service_worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B5F85D222A268378000A1BCB /* service_worker.js */; };
-		B5F85D252A268378000A1BCB /* webextension-polyfill.js in Resources */ = {isa = PBXBuildFile; fileRef = B5F85D232A268378000A1BCB /* webextension-polyfill.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		B55E483929A2EEB100231BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B55E483A29A2F02100231BEC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../Downloads/Icon.png; sourceTree = "<group>"; };
 		B5F85D222A268378000A1BCB /* service_worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = service_worker.js; sourceTree = "<group>"; };
-		B5F85D232A268378000A1BCB /* webextension-polyfill.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "webextension-polyfill.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				B5F85D222A268378000A1BCB /* service_worker.js */,
-				B5F85D232A268378000A1BCB /* webextension-polyfill.js */,
 				B513E148295CDDC2001E82A9 /* _locales */,
 				B513E14A295CDDC2001E82A9 /* images */,
 				B513E14C295CDDC2001E82A9 /* manifest.json */,
@@ -253,7 +250,6 @@
 			files = (
 				B513E14B295CDDC2001E82A9 /* images in Resources */,
 				B513E14D295CDDC2001E82A9 /* manifest.json in Resources */,
-				B5F85D252A268378000A1BCB /* webextension-polyfill.js in Resources */,
 				B5F85D242A268378000A1BCB /* service_worker.js in Resources */,
 				B513E149295CDDC2001E82A9 /* _locales in Resources */,
 			);
