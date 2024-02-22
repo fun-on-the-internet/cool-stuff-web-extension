@@ -19,7 +19,6 @@
 		B513E149295CDDC2001E82A9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B513E148295CDDC2001E82A9 /* _locales */; };
 		B513E14B295CDDC2001E82A9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B513E14A295CDDC2001E82A9 /* images */; };
 		B513E14D295CDDC2001E82A9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B513E14C295CDDC2001E82A9 /* manifest.json */; };
-		B55E483B29A2F02100231BEC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B55E483A29A2F02100231BEC /* Icon.png */; };
 		B5F85D242A268378000A1BCB /* service_worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B5F85D222A268378000A1BCB /* service_worker.js */; };
 /* End PBXBuildFile section */
 
@@ -66,7 +65,6 @@
 		B513E158295CDDC2001E82A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B513E159295CDDC2001E82A9 /* cool_stuff_web_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cool_stuff_web_extension_Extension.entitlements; sourceTree = "<group>"; };
 		B55E483929A2EEB100231BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B55E483A29A2F02100231BEC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../../../../Downloads/Icon.png; sourceTree = "<group>"; };
 		B5F85D222A268378000A1BCB /* service_worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = service_worker.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				B513E12A295CDDC1001E82A9 /* Main.html */,
-				B55E483A29A2F02100231BEC /* Icon.png */,
 				B513E12F295CDDC1001E82A9 /* Style.css */,
 				B513E131295CDDC1001E82A9 /* Script.js */,
 			);
@@ -239,7 +236,6 @@
 				B513E132295CDDC1001E82A9 /* Script.js in Resources */,
 				B513E12C295CDDC1001E82A9 /* Main.html in Resources */,
 				B513E139295CDDC2001E82A9 /* Assets.xcassets in Resources */,
-				B55E483B29A2F02100231BEC /* Icon.png in Resources */,
 				B513E130295CDDC1001E82A9 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,7 +420,7 @@
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension Extension/cool_stuff_web_extension_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F8N7968H6M;
+				DEVELOPMENT_TEAM = 6P4HA6KJYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cool-stuff-web-extension Extension/Info.plist";
@@ -441,7 +437,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.app.cool-stuff-web-extension.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.cool-stuff-web-extension-dev.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -455,7 +451,7 @@
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension Extension/cool_stuff_web_extension_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = F8N7968H6M;
+				DEVELOPMENT_TEAM = 6P4HA6KJYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cool-stuff-web-extension Extension/Info.plist";
@@ -472,7 +468,7 @@
 					"-framework",
 					SafariServices,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.app.cool-stuff-web-extension.Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.cool-stuff-web-extension.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -484,17 +480,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = DevAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension/cool-stuff-web-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = F8N7968H6M;
+				DEVELOPMENT_TEAM = 6P4HA6KJYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cool-stuff-web-extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Cool Stuff for Safari";
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Stuff for Safari Dev";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -511,9 +507,9 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.app.cool-stuff-web-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.cool-stuff-web-extension-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -532,7 +528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = F8N7968H6M;
+				DEVELOPMENT_TEAM = 6P4HA6KJYS;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "cool-stuff-web-extension/Info.plist";
@@ -553,9 +549,9 @@
 					"-framework",
 					WebKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.app.cool-stuff-web-extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.coolstuff.cool-stuff-web-extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
