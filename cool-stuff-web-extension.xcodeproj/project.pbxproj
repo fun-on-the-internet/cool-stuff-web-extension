@@ -19,6 +19,7 @@
 		B513E149295CDDC2001E82A9 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = B513E148295CDDC2001E82A9 /* _locales */; };
 		B513E14B295CDDC2001E82A9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = B513E14A295CDDC2001E82A9 /* images */; };
 		B513E14D295CDDC2001E82A9 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = B513E14C295CDDC2001E82A9 /* manifest.json */; };
+		B542E2F62B880BE30097313C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B542E2F52B880BE30097313C /* Icon.png */; };
 		B5F85D242A268378000A1BCB /* service_worker.js in Resources */ = {isa = PBXBuildFile; fileRef = B5F85D222A268378000A1BCB /* service_worker.js */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B513E124295CDDC1001E82A9 /* cool-stuff-web-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cool-stuff-web-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B513E124295CDDC1001E82A9 /* Cool Stuff for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Stuff for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B513E127295CDDC1001E82A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B513E12B295CDDC1001E82A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		B513E12F295CDDC1001E82A9 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		B513E14C295CDDC2001E82A9 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		B513E158295CDDC2001E82A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B513E159295CDDC2001E82A9 /* cool_stuff_web_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cool_stuff_web_extension_Extension.entitlements; sourceTree = "<group>"; };
+		B542E2F52B880BE30097313C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		B55E483929A2EEB100231BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B5F85D222A268378000A1BCB /* service_worker.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = service_worker.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,7 +100,7 @@
 		B513E125295CDDC1001E82A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B513E124295CDDC1001E82A9 /* cool-stuff-web-extension.app */,
+				B513E124295CDDC1001E82A9 /* Cool Stuff for Safari.app */,
 				B513E140295CDDC2001E82A9 /* cool-stuff-web-extension Extension.appex */,
 			);
 			name = Products;
@@ -122,6 +124,7 @@
 		B513E129295CDDC1001E82A9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B542E2F52B880BE30097313C /* Icon.png */,
 				B513E12A295CDDC1001E82A9 /* Main.html */,
 				B513E12F295CDDC1001E82A9 /* Style.css */,
 				B513E131295CDDC1001E82A9 /* Script.js */,
@@ -154,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B513E123295CDDC1001E82A9 /* cool-stuff-web-extension */ = {
+		B513E123295CDDC1001E82A9 /* Cool Stuff for Safari */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B513E160295CDDC2001E82A9 /* Build configuration list for PBXNativeTarget "cool-stuff-web-extension" */;
+			buildConfigurationList = B513E160295CDDC2001E82A9 /* Build configuration list for PBXNativeTarget "Cool Stuff for Safari" */;
 			buildPhases = (
 				B513E120295CDDC1001E82A9 /* Sources */,
 				B513E121295CDDC1001E82A9 /* Frameworks */,
@@ -168,9 +171,9 @@
 			dependencies = (
 				B513E143295CDDC2001E82A9 /* PBXTargetDependency */,
 			);
-			name = "cool-stuff-web-extension";
+			name = "Cool Stuff for Safari";
 			productName = "cool-stuff-web-extension";
-			productReference = B513E124295CDDC1001E82A9 /* cool-stuff-web-extension.app */;
+			productReference = B513E124295CDDC1001E82A9 /* Cool Stuff for Safari.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B513E13F295CDDC2001E82A9 /* cool-stuff-web-extension Extension */ = {
@@ -221,7 +224,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B513E123295CDDC1001E82A9 /* cool-stuff-web-extension */,
+				B513E123295CDDC1001E82A9 /* Cool Stuff for Safari */,
 				B513E13F295CDDC2001E82A9 /* cool-stuff-web-extension Extension */,
 			);
 		};
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B542E2F62B880BE30097313C /* Icon.png in Resources */,
 				B513E137295CDDC1001E82A9 /* Main.storyboard in Resources */,
 				B513E132295CDDC1001E82A9 /* Script.js in Resources */,
 				B513E12C295CDDC1001E82A9 /* Main.html in Resources */,
@@ -480,8 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = DevAppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension/cool-stuff-web-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -524,6 +529,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "cool-stuff-web-extension/cool-stuff-web-extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -581,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B513E160295CDDC2001E82A9 /* Build configuration list for PBXNativeTarget "cool-stuff-web-extension" */ = {
+		B513E160295CDDC2001E82A9 /* Build configuration list for PBXNativeTarget "Cool Stuff for Safari" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B513E161295CDDC2001E82A9 /* Debug */,

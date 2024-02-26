@@ -9,7 +9,11 @@ import Cocoa
 import SafariServices
 import WebKit
 
-let extensionBundleIdentifier = "app.coolstuff.app.cool-stuff-web-extension.Extension"
+#if DEBUG
+    let extensionBundleIdentifier = "app.coolstuff.cool-stuff-web-extension-dev.Extension"
+#else
+    let extensionBundleIdentifier = "app.coolstuff.cool-stuff-web-extension.Extension"
+#endif
 
 class ViewController: NSViewController, WKNavigationDelegate, WKScriptMessageHandler {
 

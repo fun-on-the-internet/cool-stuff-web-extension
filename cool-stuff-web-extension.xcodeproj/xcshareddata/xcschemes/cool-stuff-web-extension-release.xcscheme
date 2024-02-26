@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B513E123295CDDC1001E82A9"
-               BuildableName = "cool-stuff-web-extension.app"
-               BlueprintName = "cool-stuff-web-extension"
+               BuildableName = "Cool Stuff for Safari.app"
+               BlueprintName = "Cool Stuff for Safari"
                ReferencedContainer = "container:cool-stuff-web-extension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,8 +44,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B513E123295CDDC1001E82A9"
-            BuildableName = "cool-stuff-web-extension.app"
-            BlueprintName = "cool-stuff-web-extension"
+            BuildableName = "Cool Stuff for Safari.app"
+            BlueprintName = "Cool Stuff for Safari"
             ReferencedContainer = "container:cool-stuff-web-extension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -61,8 +61,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B513E123295CDDC1001E82A9"
-            BuildableName = "cool-stuff-web-extension.app"
-            BlueprintName = "cool-stuff-web-extension"
+            BuildableName = "Cool Stuff for Safari.app"
+            BlueprintName = "Cool Stuff for Safari"
             ReferencedContainer = "container:cool-stuff-web-extension.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
