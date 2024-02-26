@@ -23,6 +23,8 @@ browserApi.action.onClicked.addListener(addLink);
 browserApi.tabs.onActivated.addListener(onActiveTabChanged);
 browserApi.runtime.onStartup.addListener(onStartup);
 
+const isSafari = browserApi.runtime.getURL("").startsWith("safari");
+
 async function _getHeaders() {
   const token = await browserApi.cookies.get({
     name: "token",
@@ -65,7 +67,8 @@ async function addLink() {
   const headers = await _getHeaders();
 
   if (!headers) {
-    browserApi.tabs.create({ url: "https://coolstuff.app/login" });
+    const landing = isSafari ? "safari-extension" : "chrome-extension";
+    browserApi.tabs.create({ url: `https://coolstuff.app?landing=${landing}` });
     return;
   }
 
