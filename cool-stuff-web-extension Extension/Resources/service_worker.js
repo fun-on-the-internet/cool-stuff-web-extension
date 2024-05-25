@@ -64,6 +64,17 @@ async function addLink() {
     active: true,
   });
 
+  const response = await browserApi.scripting.executeScript({
+    target: {
+      tabId: tab.id,
+    },
+    func: () => {
+      return document.documentElement.outerHTML;
+    },
+  });
+
+  const html = response[0].result;
+
   const headers = await _getHeaders();
 
   if (!headers) {
@@ -81,6 +92,7 @@ async function addLink() {
         type: "link_data",
         attributes: {
           url: tab.url,
+          temp_html: html,
         },
       },
     }),

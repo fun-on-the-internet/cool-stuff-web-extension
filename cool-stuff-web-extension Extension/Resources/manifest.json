@@ -14,7 +14,7 @@
   "background": {
     "service_worker": "service_worker.js"
   },
-  "permissions": ["activeTab", "cookies"],
+  "permissions": ["activeTab", "cookies", "scripting"],
   "action": {
     "default_icon": {
       "16": "images/cool-stuff-toolbar-icon-inactive-16.png",
