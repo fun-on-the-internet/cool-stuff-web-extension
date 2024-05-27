@@ -3,7 +3,7 @@
   "default_locale": "en",
   "name": "Cool Stuff",
   "description": "The Cool Stuff extension allows you to add links to Cool Stuff directly from your browser. Pretty cool.",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "icons": {
     "48": "images/cool-stuff-icon-48.png",
     "96": "images/cool-stuff-icon-96.png",
